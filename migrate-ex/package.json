@@ -1,0 +1,29 @@
+{
+  "name": "migrate-ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node-pg-migrate",
+    "start": "nodemon server.js",
+    "test": "jest --no-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-pg-migrate": "^6.2.2",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "sequelize-cli": "^6.4.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dedent": "^0.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "pg-format": "^1.0.4",
+    "supertest": "^6.2.4"
+  }
+}
